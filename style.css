@@ -132,6 +132,7 @@ div p a{
     }
     footer{
         width: auto;
-        height:10px;
+        height:auto;
+        margin-bottom: 0px;
     }
  }

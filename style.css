@@ -130,4 +130,8 @@ div p a{
     height: 75px;
     gap: 10px;
     }
+    footer{
+        width: auto;
+        height:auto;
+    }
  }

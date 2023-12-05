@@ -81,7 +81,7 @@ hr{
     text-decoration: none;
 }
 /*footer*/
-footer{
+foter{
     background-color: #3A3E3B;
     height: max-content ;
     margin-top: 40px;
@@ -130,7 +130,7 @@ div p a{
     height: 75px;
     gap: 10px;
     }
-    footer{
+    foter{
         width: auto;
         height:auto;
         margin-top:100%

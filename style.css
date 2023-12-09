@@ -42,6 +42,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .writing{
     font-size: x-large;
@@ -55,6 +56,9 @@ ul{
     border: none;
     margin-top: 40px;
     font-size: x-large;
+}
+.image{
+    margin-top: 30px;
 }
 /*sec2*/
 hr{
@@ -177,3 +181,105 @@ div p a{
         margin-top:100%;
     }
  }
+ @media(768px<=width<=992px){
+    .navbar{
+        width: auto;
+    
+    }
+    .nav-items li a{
+        font-size: x-large;
+    }
+    #logo{
+        margin-left: 30px;
+        margin-right: 40px;
+        font-size: xx-large;
+    }
+    li{
+        margin-right:50px;
+        margin-left: 30px;
+    }
+    ul{
+        margin-left: 150px;
+    }
+    .writing{
+        font-size: xx-large;
+        margin-left: 30px;
+        margin-top: 250px;
+    } 
+    .btn1{
+        margin-bottom: 150px;
+    }
+    footer{
+        width: auto;
+        height:auto;
+        margin-top:100%;
+    }
+ }
+ @media(992px<=width<=1200px){
+    .navbar{
+        width: auto;
+    }
+    .nav-items li a{
+        font-size: x-large;
+    }
+    #logo{
+        margin-left: 30px;
+        margin-right: 40px;
+        font-size: xx-large;
+    }
+    ul{
+        margin-left: 150px;
+    }
+    li{
+        margin-right:50px;
+        margin-left: 30px;
+    }
+    .writing{
+        font-size: xx-large;
+        margin-left: 30px;
+        margin-top: 250px;
+    } 
+    .btn1{
+        margin-bottom: 150px;
+    }
+    footer{
+        width: auto;
+        height:auto;
+        margin-top:100%;
+    }
+}
+@media(width>=1200px){
+    .navbar{
+        width: auto;
+    }
+    .nav-items li a{
+        font-size: x-large;
+    }
+    #logo{
+        margin-left: 50px;
+        margin-right: 40px;
+        font-size: xx-large;
+    }
+    ul{
+        margin-left: 250px;
+    }
+    li{
+        margin-right:50px;
+        margin-left: 30px;
+    }
+    .writing{
+        font-size: xx-large;
+        margin-left: 50px;
+        margin-top: 250px;
+    } 
+    .btn1{
+        margin-bottom: 150px;
+    }
+    footer{
+        width: auto;
+        height:auto;
+        margin-top:100%;
+    }
+}
+
+ 

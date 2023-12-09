@@ -139,3 +139,41 @@ div p a{
         margin-top:100%;
     }
  }
+ @media(600px<=width<=768px){
+    .navbar{
+        width: auto;
+    height: 100px;
+    }
+    .nav-items li a{
+        font-size: x-large;
+    }
+    #logo{
+        margin-left: 30px;
+        margin-right: 40px;
+        font-size: xx-large;
+    }
+    li{
+        margin-right:50px;
+        margin-left: 50px;
+    }
+    .writing{
+        font-size: xx-large;
+        margin-left: 10px;
+        margin-top: 250px;
+    } 
+    .btn1{
+        width: 300px;
+    height: 60px;
+    font-size: xx-large;
+    margin-top: 30px;
+    margin-bottom: 500px;
+    }
+    .image{
+        margin-top:250px;
+    }
+    footer{
+        width: auto;
+        height:auto;
+        margin-top:100%;
+    }
+ }
